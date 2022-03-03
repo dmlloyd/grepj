@@ -44,7 +44,7 @@ public final class GrepJ {
                     }
                 }
             } catch (IOException e) {
-                System.err.printf("Failed to read %s: %s", path, e);
+                System.err.printf("Failed to read %s: %s%n", path, e);
             }
         }
         System.exit(found ? 0 : 1);
